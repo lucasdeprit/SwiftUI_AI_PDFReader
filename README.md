@@ -71,5 +71,3 @@ PDFAIReaderMVP is a SwiftUI universal iPhone/iPad app that imports PDFs, perform
 - Everything runs on-device. No servers.
 - Large PDFs are handled with chunked context retrieval for Q&A.
 - Image extraction is text-only (no image display) by design.
-# SwiftUI_AI_PDFReader
-# SwiftUI_AI_PDFReader
