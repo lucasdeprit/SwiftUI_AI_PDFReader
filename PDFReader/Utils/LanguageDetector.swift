@@ -1,11 +1,6 @@
 import Foundation
 import NaturalLanguage
 
-enum DocLanguage {
-    case spanish
-    case english
-}
-
 /// Detects the dominant language of a document using Apple's NaturalLanguage APIs.
 struct LanguageDetector {
     /// Returns the dominant language constrained to Spanish or English.

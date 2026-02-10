@@ -51,9 +51,3 @@ final class DocumentCache {
         }.value
     }
 }
-
-/// Cached payload stored on disk.
-struct CachedDocument: Codable {
-    let ocrText: String
-    let analysis: DocAnalysis
-}
