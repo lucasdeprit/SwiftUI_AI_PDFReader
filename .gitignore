@@ -1,0 +1,71 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/package.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# CocoaPods / Carthage / Swift Package cache
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.env
+*.pem
+*.p12
+*.p8
+*.key
+*.cer
+*.mobileprovision
+*.secrets
+*.secret
+*.keystore
+*.jks
+*.der
+*.pfx
+*.ppk
+*.ovpn
+*.kdbx
+
+# Configs that often contain secrets
+*.xcconfig
+*.plist
+
+# Local DBs / data dumps
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.dump
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
